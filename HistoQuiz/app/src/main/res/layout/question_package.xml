@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".QuestionPackage">
+
+    <ImageView
+        android:id="@+id/img_Logo_QuestionPackage"
+        android:layout_marginTop="50px"
+        android:layout_width="102dp"
+        android:layout_height="97dp"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/histoquiz_logo"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <TextView
+        android:id="@+id/txtTitle_QuestionPackage"
+        android:layout_width="141dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/img_Logo_QuestionPackage"
+        android:text="HistoQuiz"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="189dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <TextView
+        android:id="@+id/txtLabelQuestionSet"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_Logo_QuestionPackage"
+        android:layout_marginLeft="140px"
+        android:layout_marginTop="42dp"
+        android:text="Please choose one topic of set of questions to answer :\n\nYou can only have two wrong answer per question to success"
+        android:textSize="16sp"
+        android:textStyle="bold|italic" />
+
+
+    <Button
+        android:id="@+id/btnSistemPersekutuan"
+        android:layout_width="305dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="Sistem Persekutuan"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="380dp"
+        android:layout_below="@+id/txtLabelQuestionSet"/>
+
+    <Button
+        android:id="@+id/btnPilihanRaya"
+        android:layout_width="305dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Pilihan Raya"
+        tools:layout_editor_absoluteX="61dp"
+        tools:layout_editor_absoluteY="553dp"
+        android:layout_below="@id/btnSistemPersekutuan"/>
+
+
+
+
+</RelativeLayout>

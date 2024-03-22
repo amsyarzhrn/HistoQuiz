@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="138dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/histoquiz_logo"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="227dp"
+        android:layout_height="107dp"
+        android:layout_centerHorizontal="true"
+        android:text="Welcome to HistoQuiz"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="208dp"
+        android:layout_below="@+id/imageView"/>
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_centerHorizontal="true"
+        android:text="PLAY"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="463dp"
+        android:layout_below="@+id/txtTitle"/>
+
+
+</RelativeLayout>
